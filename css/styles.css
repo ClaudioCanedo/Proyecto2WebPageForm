@@ -1,0 +1,174 @@
+body{
+	padding: 100px;
+	Background-image: url("../images/background3.jpg");
+
+}
+
+
+
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size:50px;
+	color: #E99F00;
+}
+
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-size:30px;
+	color: #E99F00;
+}
+
+td{
+	width: 33.33%;
+	height: 13%;
+}
+
+.ground{
+	padding: 20px;
+	border-radius: 5px;
+	background: #e7eff5;
+
+
+}
+
+.backa:hover{
+	color: black;
+	background: #FCD98D;
+	border-radius: 5px;
+	text-decoration: none;
+	border: 10px solid #FCD98D;
+}
+.backa{
+	color: white;
+	background: orange;
+	border-radius: 5px;
+	text-decoration: none;
+	border: 10px solid orange;
+}
+
+.topt{
+	text-align: top;
+}
+.cm{
+	text-align: center;
+}
+
+.l{
+	text-align: left;
+		
+}
+
+.c{
+	text-align: middle;
+}
+	
+.r{
+	text-align: right;
+}
+
+.t{
+	vertical-align: top;
+}
+		
+.m{
+	vertical-align: middle;
+}
+
+.b{
+	vertical-align: left;
+}
+
+
+fieldset{
+
+	opacity:  1.0;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	border-radius: 5px;
+
+	height: auto;
+
+	padding: 20px;
+}
+
+.estilo{
+	padding-left: 200px;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	background: #e7eff5;
+
+
+
+}
+.caja1{
+	
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	width: 50px;
+    background: red;
+}
+.caja2{
+	padding-left: 25px; 
+	padding-right: 25px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	width: 50px;
+    background: #ff9e1e;
+}
+
+#fuente {
+	font-family: 'Roboto', sans-serif;
+}
+
+.boton{
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	color: white;
+	border-color: black;
+	border-radius: 9px;
+	background:  #3098dc ;
+	padding: 10px;
+	
+}
+.marco{
+	border-radius: 5px;
+	padding: 5px;
+	background:  #e7eff5 ;
+
+}
+
+.zoom{
+	/* Aumentamos la anchura y altura durante 2 segundos */
+	transition: width 2s, height 2s, transform 1s;
+	-moz-transition: width 2s, height 2s, -moz-transform 1s;
+	-webkit-transition: width 2s, height 2s, -webkit-transform 1s;
+	-o-transition: width 2s, height 2s,-o-transform 1s;
+}
+.zoom:hover{
+	/* tranformamos el elemento al pasar el mouse por encima al doble de
+       su tamaño con scale(2). */
+	transform : scale(2);
+	-moz-transform : scale(2);      /* Firefox */
+	-webkit-transform : scale(1.2);   /* Chrome - Safari */
+	-o-transform : scale(2);        /* Opera */
+}
+
+legend{
+	color: white;
+}
+
+.texta{
+	height: 100px;
+}
